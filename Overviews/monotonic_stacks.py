@@ -27,3 +27,13 @@ for price in stock_prices:
     # print(f"Price: {price}, Span: {spanner.next(price)}")  
     spanner.next(price)
     print(f"Current Stack: {spanner.prices}")  # Print the current state of the stack
+
+
+# %%
+word = "Hello"
+i = 2
+insert = "a"
+n = len(word)
+print(word[:i] + insert +  word[i+1:n])
+
+# %%
